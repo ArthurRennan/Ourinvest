@@ -1,0 +1,10 @@
+.btn {
+    padding: 5px 30px;
+    border-radius: 20px;
+}
+
+.btn.btn-orange{
+    background: #b2c80d;
+    color: #000000;
+    font-weight: bold;
+}

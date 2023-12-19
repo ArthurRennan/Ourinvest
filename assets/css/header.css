@@ -1,0 +1,40 @@
+header section{
+    justify-content: space-between;
+    align-items: center;
+}
+header section nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header section nav ul li a{
+    color: #fff;
+    margin: 0 15px;
+    font-size: 15pt;
+    text-decoration: none;
+    position: relative;
+}
+#company-logo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    text-decoration: none;
+}
+header nav ul li a::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .50s;
+}
+header nav ul li a:hover::after{
+    width: 100%;
+}
+header nav ul li .btn.btn-orange::after {
+    width: 0%;
+}
